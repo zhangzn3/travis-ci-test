@@ -19,4 +19,4 @@ gulp.task('compress', function () {
         });
 });
 gulp.task('default', ['compress']);//默认任务
-gulp.watch(srcPath,['default']); //监控文件改动自动执行任务
+//gulp.watch(srcPath,['default']); //监控文件改动自动执行任务
